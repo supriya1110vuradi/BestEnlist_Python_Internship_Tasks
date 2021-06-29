@@ -4,7 +4,7 @@ from mysql.connector import Error
 
 connection = mysql.connector.connect(host='localhost',
                                          user='root',
-                                         password='Sqlpython123#')
+                                         password='***********')
 if connection.is_connected():
         db_Info = connection.get_server_info()
         print("Connected to MySQL Server version ", db_Info)
@@ -14,7 +14,7 @@ import mysql.connector
 db_connection = mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="Sqlpython123#"
+  passwd="*********"
 )
 print(db_connection)
        
@@ -24,7 +24,7 @@ import mysql.connector
 db_connection = mysql.connector.connect(
   host= "localhost",
   user= "root",
-  passwd= "Sqlpython123#",
+  passwd= "**********",
   database="records"
   )
 
@@ -91,7 +91,7 @@ import mysql.connector
 db_connection = mysql.connector.connect(
   host= "localhost",
   user= "root",
-  passwd= "Sqlpython123#",
+  passwd= "***********",
   database="records"
   )
 
@@ -198,7 +198,7 @@ import mysql.connector
 db_connection = mysql.connector.connect(
   host= "localhost",
   user= "root",
-  passwd= "Sqlpython123#",
+  passwd= "**********",
   database="records"
   )
 
@@ -288,7 +288,7 @@ import mysql.connector
 db_connection = mysql.connector.connect(
   host= "localhost",
   user= "root",
-  passwd= "Sqlpython123#",
+  passwd= "**********",
   database="records"
   )
 
